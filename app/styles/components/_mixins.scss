@@ -1,0 +1,28 @@
+@mixin clearfix {
+  &::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
+
+
+@mixin button-border-radius {
+  border-radius: $tile-border-radius;
+}
+
+
+@mixin game-button {
+  @include button-border-radius;
+  background-color: $tile-background-color;
+  color: $tile-text-color;
+  display: block;
+  font-size: $game-button-font-size;
+  transition: all .3s ease;
+  outline: none;
+
+  &:hover, &:focus {
+    background-color: $tile-focused-background-color;
+    color: $tile-text-color;
+  }
+}

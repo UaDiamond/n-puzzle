@@ -1,0 +1,17 @@
+.page-info {
+  p {
+    text-align: left;
+    text-indent: 1rem;
+
+    &.info-box {
+      background-color: #f7f7f7;
+      border: none;
+      border-left: 6px solid #008CBA;
+      box-shadow: 0 5px 8px -6px rgba(0, 0, 0, 0.2);
+      color: #333;
+      font-weight: normal;
+      margin-bottom: 1.25rem;
+      padding: 0.875rem 1.5rem 0.875rem 0.875rem;
+    }
+  }
+}

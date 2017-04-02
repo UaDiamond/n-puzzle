@@ -1,0 +1,58 @@
+.tile {
+  background-color: $tile-background-color;
+  border: 1px solid $board-background-color;
+  border-radius: $tile-border-radius;
+  color: $tile-text-color;
+  cursor: default;
+  outline: none;
+  position: absolute;
+  transition: background-color $tile-transition-duration linear .3s,
+  left $tile-transition-duration,
+  top $tile-transition-duration;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+
+  &.movable {
+    cursor: pointer;
+
+    &:focus {
+      // TODO: define focus background when user uses keyboard
+      //background-color: #bbb;
+    }
+  }
+}
+
+.game-board:not(.style-1) {
+  .tile {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    span {
+      margin: auto;
+    }
+  }
+}
+
+.game-board.style-1 {
+
+  .tile {
+    background: linear-gradient(#e6e6e6, #d9d9d9);
+
+    span {
+      align-items: center;
+      background: linear-gradient(#d9d9d9, #e6e6e6);
+      border-radius: 50%;
+      display: flex;
+      height: 80%;
+      justify-content: center;
+      margin: 0 auto;
+      top: 10%;
+      width: 80%;
+    }
+  }
+}
+
+.gap {
+  visibility: hidden;
+}

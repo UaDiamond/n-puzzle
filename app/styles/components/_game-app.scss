@@ -1,0 +1,11 @@
+.game-counters {
+  @include clearfix;
+
+  .moves-counter {
+    float: left;
+  }
+  
+  .time-counter {
+    float: right;
+  }
+}

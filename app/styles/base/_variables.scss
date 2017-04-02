@@ -1,0 +1,31 @@
+// Global
+$text-color: $black;
+$link-color: #888;
+$link-color-hover: #333;
+$transition-duration: 0.2s;
+
+// Top bar
+$nav-link-color: $link-color;
+$nav-active-link: $link-color-hover;
+
+// Page title
+$vertical-margin: 1.5rem;
+
+// Board variables
+$board-background-color: $white;
+$board-border-color: #aaa;
+$board-border-radius: 12px;
+$board-border-style: solid;
+$board-border-width: 5px;
+$board-size: 100%;
+
+// Game button
+$game-button-font-size: 1.5rem;
+
+// Tile variables
+$tile-background-color: #e6e6e6;
+$tile-border-color: $white;
+$tile-border-radius: 6px;
+$tile-focused-background-color: #d6d6d6;
+$tile-text-color: #888;
+$tile-transition-duration: $transition-duration;

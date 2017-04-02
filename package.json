@@ -1,0 +1,52 @@
+{
+  "name": "n-puzzle",
+  "version": "1.0.0",
+  "description": "N Puzzle Game",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UaDiamond/n-puzzle.git"
+  },
+  "main": "app.js",
+  "scripts": {
+    "dev": "webpack -d -w",
+    "build": "webpack -p",
+    "test": "karma start",
+    "start": "node server.js"
+  },
+  "author": "Oleksandr Baletskyi <developer@baletskyi.me>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "foundation-sites": "^6.3.1",
+    "jquery": "^3.2.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "react-router": "^4.0.0",
+    "react-router-dom": "^4.0.0",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "css-loader": "^0.27.3",
+    "deep-freeze-strict": "^1.1.1",
+    "expect": "^1.20.2",
+    "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-reporter": "^2.2.3",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^2.0.3",
+    "mocha": "^3.2.0",
+    "node-sass": "^4.5.1",
+    "react-addons-test-utils": "^15.4.2",
+    "sass-loader": "^6.0.3",
+    "script-loader": "^0.7.0",
+    "style-loader": "^0.16.0",
+    "webpack": "^2.3.2"
+  }
+}

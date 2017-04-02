@@ -1,0 +1,13 @@
+.page-title {
+  text-align: center;
+  margin: $vertical-margin auto;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+a {
+  transition: all $transition-duration;
+}

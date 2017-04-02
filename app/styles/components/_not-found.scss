@@ -1,0 +1,12 @@
+.start-link {
+  border-bottom: 1px solid currentColor;
+  color: $link-color;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+.start-link:hover,
+.start-link:focus {
+  border-color: currentColor;
+  color: $link-color-hover;
+}

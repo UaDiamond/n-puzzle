@@ -1,0 +1,14 @@
+.game-info {
+  background-color: $board-border-color;
+  border-radius: $board-border-radius $board-border-radius 0 0;
+  color: $board-background-color;
+  margin: 2rem 0 0;
+  margin-bottom: -$board-border-width * 2;
+  padding: 0.625rem;
+  padding-bottom: calc(0.625rem + 5px);
+  text-align: center;
+}
+
+@media screen and (max-width: 399px) {
+  font-size: 90%;
+}

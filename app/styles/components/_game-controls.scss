@@ -1,0 +1,13 @@
+.button-rounded {
+  @include button-border-radius;
+}
+
+.game-controls {
+  .button {
+    outline: none;
+
+    &.success:not(.hollow) {
+      color: #fff;
+    }
+  }
+}

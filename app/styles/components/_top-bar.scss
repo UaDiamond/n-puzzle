@@ -1,0 +1,29 @@
+.menu {
+  & > li {
+    & > a {
+      color: $nav-link-color;
+      transition: color $tile-transition-duration linear;
+
+      &.active {
+        color: $nav-active-link;
+      }
+    }
+
+    &.menu-toggle {
+      float: right;
+      padding: 0.4rem 1rem;
+
+      & .menu-icon {
+        &::after {
+          background: $nav-link-color;
+          box-shadow: 0 7px 0 $nav-link-color, 0 14px 0 $nav-link-color;
+        }
+
+        &:hover::after, &:focus::after {
+          background: $nav-active-link;
+          box-shadow: 0 7px 0 $nav-active-link, 0 14px 0 $nav-active-link;
+        }
+      }
+    }
+  }
+}

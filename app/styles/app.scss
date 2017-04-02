@@ -1,0 +1,20 @@
+// Foundation
+@import 'base/foundation-settings';
+@import './../../node_modules/foundation-sites/scss/foundation';
+@include foundation-everything;
+
+// Import app variables and mixins
+@import 'base/variables';
+@import 'components/mixins';
+
+// App styles
+@import 'components/global';
+@import 'components/top-bar';
+@import 'components/game-app';
+@import 'components/game-start-buttons';
+@import 'components/game-info';
+@import 'components/game-board';
+@import 'components/tile';
+@import 'components/game-controls';
+@import 'components/info';
+@import 'components/not-found';
